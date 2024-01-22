@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amenities</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Amenities</h1>
+        <a href="dashboard.html">Back to Dashboard</a>
+    </header>
+    <main class="content">
+        <h2>Amenity List</h2>
+        <ul id="amenityList">
+            <!-- Amenities will be added dynamically using JavaScript -->
+        </ul>
+        <div id="amenityDetails" class="hidden">
+            <h2>Amenity Details</h2>
+            <p id="amenityNameDetails"></p>
+            <p id="amenityDescriptionDetails"></p>
+            <button id="reserveAmenity">Reserve Amenity</button>
+        </div>
+        <h2>Reservation Form</h2>
+        <form id="reservationForm">
+            <div class="form-group">
+                <label for="reservationName">Your Name</label>
+                <input type="text" id="reservationName" required>
+            </div>
+            <div class="form-group">
+                <label for="reservationDate">Date</label>
+                <input type="date" id="reservationDate" required>
+            </div>
+            <div class="form-group">
+                <label for="reservationTime">Time</label>
+                <input type="time" id="reservationTime" required>
+            </div>
+            <button type="submit">Submit Reservation</button>
+        </form>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

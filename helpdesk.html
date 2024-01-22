@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Helpdesk Tickets</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Helpdesk Tickets</h1>
+        <a href="dashboard.html">Back to Dashboard</a>
+    </header>
+    <main class="content">
+        <h2>Submit a New Ticket</h2>
+        <form id="ticketForm">
+            <div class="form-group">
+                <label for="ticketCategory">Category</label>
+                <select id="ticketCategory" required>
+                    <option value="maintenance">Maintenance</option>
+                    <option value="security">Security</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="ticketDescription">Description</label>
+                <textarea id="ticketDescription" rows="4" required></textarea>
+            </div>
+            <button type="submit">Submit Ticket</button>
+        </form>
+        <h2>Existing Tickets</h2>
+        <ul id="ticketList">
+            <!-- Tickets will be added dynamically using JavaScript -->
+        </ul>
+        <div id="ticketDetails" class="hidden">
+            <h2>Ticket Details</h2>
+            <p id="ticketCategoryDetails"></p>
+            <p id="ticketDescriptionDetails"></p>
+            <button id="updateTicket">Update Ticket</button>
+            <button id="closeTicket">Close Ticket</button>
+        </div>
+        <!-- Add this input field to the ticket submission form -->
+<div class="form-group">
+    <label for="fileUpload">Attach File (optional)</label>
+    <input type="file" id="fileUpload">
+</div>
+<!-- Add this element to the ticket details section -->
+<div id="ticketFileDetails"></div>
+
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

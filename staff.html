@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Staff Directory</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Staff Directory</h1>
+        <a href="dashboard.html">Back to Dashboard</a>
+    </header>
+    <main class="content">
+        <div class="filter-options">
+            <label for="departmentFilter">Filter by Department:</label>
+            <select id="departmentFilter">
+                <option value="all">All Departments</option>
+                <option value="management">Management</option>
+                <option value="maintenance">Maintenance</option>
+                <option value="security">Security</option>
+            </select>
+        </div>
+        <div class="search">
+            <label for="staffSearch">Search:</label>
+            <input type="text" id="staffSearch">
+        </div>
+        <table id="staffTable">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Department</th>
+                    <th>Email</th>
+                    <th>Phone Number</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="staffList">
+                <!-- Staff directory entries will be added dynamically using JavaScript -->
+            </tbody>
+        </table>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visitor Management</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Visitor Management</h1>
+        <a href="dashboard.html">Back to Dashboard</a>
+    </header>
+    <main class="content">
+        <h2>Visitor Log</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Phone Number</th>
+                    <th>Check In</th>
+                    <th>Check Out</th>
+                    <th>Photo</th>
+                </tr>
+            </thead>
+            <tbody id="visitorLog">
+                <!-- Visitor log entries will be added dynamically using JavaScript -->
+            </tbody>
+        </table>
+        <form id="visitorForm">
+            <div class="form-group">
+                <label for="visitorName">Name</label>
+                <input type="text" id="visitorName" required>
+            </div>
+            <div class="form-group">
+                <label for="phoneNumber">Phone Number</label>
+                <input type="tel" id="phoneNumber" required>
+            </div>
+            <div class="form-group">
+                <label for="checkInTime">Check In Time</label>
+                <input type="datetime-local" id="checkInTime" required>
+            </div>
+            <div class="form-group">
+                <label for="checkOutTime">Check Out Time</label>
+                <input type="datetime-local" id="checkOutTime" required>
+            </div>
+            <div class="form-group">
+                <label for="photo">Upload Photo</label>
+                <input type="file" id="photo">
+            </div>
+            <button type="submit">Check In</button>
+        </form>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

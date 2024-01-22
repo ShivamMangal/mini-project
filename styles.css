@@ -1,0 +1,393 @@
+/* Add this to your existing CSS file, or create a new one if needed */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: black;
+    
+}
+
+.content {
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+h2 {
+    color: #007bff;
+}
+
+.card {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.card h3 {
+    color: #007bff;
+}
+
+.card p {
+    color: #555;
+}
+
+.card:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+    transition: box-shadow 0.3s, transform 0.3s;
+}
+
+
+.card h2 {
+    margin-bottom: 10px;
+    color: #007bff;
+}
+
+.card p {
+    color: #555;
+}
+
+.visitor { background-color: #fed8b1; }
+.staff { background-color: #c2f0c2; }
+.mom { background-color: #ffd700; }
+.helpdesk { background-color: #dda0dd; }
+.amenities { background-color: #add8e6; }
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+h2 {
+    color: #007bff;
+}
+
+.form-group {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input {
+    width: calc(100% - 12px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+/* Add this to your existing CSS file, or create a new one if needed */
+
+.content table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.content th, .content td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}
+
+.content th {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.content th, .content td:nth-child(3), .content td:nth-child(4) {
+    white-space: nowrap;
+}
+
+.content form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.content form .form-group {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.content form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.content form input, .content form select {
+    width: calc(100% - 12px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.content form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.content form button:hover {
+    background-color: #0056b3;
+}
+/* Add this to your existing CSS file, or create a new one if needed */
+
+.content .filter-options,
+.content .search {
+    margin-bottom: 20px;
+}
+
+.content .filter-options select,
+.content .search input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.content table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.content th, .content td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}
+
+.content th {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.content th, .content td:nth-child(5) {
+    white-space: nowrap;
+}
+
+.content .actions a {
+    color: #007bff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.content .actions a:hover {
+    text-decoration: underline;
+}
+
+.content .actions .delete {
+    color: #ff3333;
+}
+/* Add this to your existing CSS file, or create a new one if needed */
+
+.content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.content ul li {
+    margin-bottom: 10px;
+}
+
+.content .form-group {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.content form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.content form input {
+    width: calc(100% - 12px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.content form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.content form button:hover {
+    background-color: #0056b3;
+}
+
+.content #meetingDetails {
+    margin-top: 20px;
+}
+
+.hidden {
+    display: none;
+}
+/* Add this to your existing CSS file, or create a new one if needed */
+
+.content form select,
+.content form textarea {
+    width: calc(100% - 12px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.content form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.content form button:hover {
+    background-color: #0056b3;
+}
+
+.content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.content ul li {
+    margin-bottom: 10px;
+}
+
+.content #ticketDetails {
+    margin-top: 20px;
+}
+
+.hidden {
+    display: none;
+}
+/* Add this to your existing CSS file, or create a new one if needed */
+
+.content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.content ul li {
+    margin-bottom: 10px;
+}
+
+.content #amenityDetails {
+    margin-top: 20px;
+}
+
+.content form input {
+    width: calc(100% - 12px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.content form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.content form button:hover {
+    background-color: #0056b3;
+}
+
+.hidden {
+    display: none;
+}
